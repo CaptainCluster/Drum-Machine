@@ -42,5 +42,6 @@ After this, you are good to go!
 
 This project is a part of **FreeCodeCamp** *Front End Development Libraries Course*. FreeCodeCamp is the provider of the
 audio samples for the project. While some ideas have been received from their example project and the instructions have been 
-followed, all the components and the style have been made by me, and follow my vision with the .
+followed, all the components and the style have been made by me, and follow my vision, with both the inspiration and constraints
+in mind. 
 
