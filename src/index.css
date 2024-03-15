@@ -1,0 +1,88 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  font-size: 36px;
+
+  display: flex;
+  place-items: center;
+  justify-content: center;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+#container {
+  background-color: #1a1a1a;
+  width: 50vw;
+  height: 50vh;
+  margin-top: 25vh;
+  border-radius: 3px;
+}
+
+#drum-machine {
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+}
+
+#drum-pad-container {
+  background-color: rgb(84, 87, 87);
+  display: flex;
+  flex-wrap: wrap;
+  width: 59.5%;
+  height: 98%;
+  margin-top: 0.4%;
+  margin-left: 0.5%;
+}
+
+#options-container {
+  color: black;
+  background-color: #1a1a1a;
+  width: 39.5%;
+  height: 98%;
+  margin-top: 0.4%;
+
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+}
+
+#display-outer {
+  background-color: #cccccc;
+  border-radius: 4px;
+
+  width: 80%;
+  height: 25%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.drum-pad {
+  border: 1px solid black;
+  background-color: #4CAF50;
+  width:33%;
+  height: 33%;
+
+  box-sizing: border-box;
+  display: flex; 
+
+  justify-content: center; 
+  align-items: center; 
+
+  border-radius: 3px;
+}
+
+.drum-pad.drum-pad-pressed {
+  background-color: #295e2a;
+}
+
+
