@@ -1,70 +1,46 @@
-# Getting Started with Create React App
+# Drum Machine
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Drum Machine is the third project for the *Front End Development Libraries* course that is hosted by **FreeCodeCamp**.
+It utilizes the **React** JavaScript library to build the UI. The user can either click the drum pads or press specific
+keys to trigger various audio samples.
 
-## Available Scripts
+[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
-In the project directory, you can run:
+📚 Dependencies
+---
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![NodeJS](https://img.shields.io/badge/node.js-6DA55F?style=for-the-badge&logo=node.js&logoColor=white)
 
-### `npm start`
+> [Learn more about React here!](https://react.dev/)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+In order to use the project, you need to download **NodeJS** for the necessary commands.
+> [Install NodeJS here](https://nodejs.org/en/)
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+After this, you have to install additional project dependencies, while being in the directory of the project.
+This can be done by running the following command:
+> `npm install`
 
-### `npm test`
+🚀 Running the program
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+In order to start the program, all you need to do is run this command:
+> `npm start`
 
-### `npm run build`
+After this, you are good to go!
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+👀 Example
+---
+<div>
+  <img src="https://github.com/CaptainCluster/Drum-Machine/assets/121576355/bc717c56-052b-4aef-a8b9-fcb88e7f1218" style="width: 500px; ">
+</div>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+> The user presses the *Z* key and triggers the *Kick n' Hat* audio sample. The pressed drum pad changes its color temporarily.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+🙏 Credits
+---
+![FreeCodeCamp](https://img.shields.io/badge/Freecodecamp-%23123.svg?&style=for-the-badge&logo=freecodecamp&logoColor=green)
 
-### `npm run eject`
+This project is a part of **FreeCodeCamp** *Front End Development Libraries Course*. FreeCodeCamp is the provider of the
+audio samples for the project. While some ideas have been received from their example project and the instructions have been 
+followed, all the components and the style have been made by me, and follow my vision with the .
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
